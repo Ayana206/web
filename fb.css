@@ -1,27 +1,40 @@
 body{
-    background-color: #0d64e7;
+    background-color: #f0f2f5;
 }
 #main{
     height:746px;
     width: 100%;
-    background-color:crimson;
+    background-color: #f0f2f5;
     display: flex;
     flex-direction: row;
 }
+div {
+    border-radius: 12px;
+}
+input[type=tel], select {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
 #left-box{
     height: fit-content;
     width: fit-content;
-    background-color: aqua;
+    background-color: white;
     padding: 40px;
     margin-top: 128px;
-    margin-left: 193px;
+    margin-left: 193.5px;
 }
 #Fb{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 500;
     margin-top: -12px;
-    margin-left: 29px;
+    margin-left: 28px;
 }
 img {
     height: 106px;
@@ -37,40 +50,50 @@ img {
 }
 #big-right-box {
     margin-top: 125px;
-    margin-left: 65px;
+    margin-left: 80px;
     width: fit-content;
     height: fit-content;
     background-color: cornflowerblue;
     align-items: center;
-    padding: 2px;
 }
 #reg-box {
-    height: 350px;
+    height: 345px;
     width: 400px;
     background: #fff;
 }
 .box {
+
   display: flex;
   flex-direction: column;
+  padding: 9px;
 }
 .button{
-    font-size: 20px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	text-transform: capitalize;
-
+    border:none; 
 }
 #vhod-button {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: bold;
     background-color: #1877f2;
     color: white;
 }
 #zab-button{
+    height: 30px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin: 5px;
     background-color: white;
     color: #1877f2;
 }
 #acc-button{
-    background-color:#4cd137;
+    height: 48px;
+    border-radius: 10px;
+    width: 171px;
+    font-weight: bold;
+    align-self: center;
+    font-size: 17px;
+    margin-bottom: 1px;
+    background-color:#05aa08f8;
     color: white;
 }
