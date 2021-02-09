@@ -1,18 +1,31 @@
-
-#left-box {
-    height: 286px;
-    width: 400px;
-    padding: 32;
-    margin-top: 32px;
+body{
+    background-color: #0d64e7;
 }
 #main{
-    background-color: #f0f2f5;
+    height:746px;
+    width: 100%;
+    background-color:crimson;
+    display: flex;
+    flex-direction: row;
+}
+#left-box{
+    height: fit-content;
+    width: fit-content;
+    background-color: aqua;
+    padding: 40px;
+    margin-top: 128px;
+    margin-left: 193px;
+}
+#Fb{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -12px;
+    margin-left: 29px;
 }
 img {
     height: 106px;
     width: 301.06px;
-    text-align: left;
-    margin: -28px;
 }
 #words{
     height: 103px;
@@ -23,13 +36,41 @@ img {
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
 }
 #big-right-box {
-    align-items: left;
-    height: 496px;
-    width: 396x;
+    margin-top: 125px;
+    margin-left: 65px;
+    width: fit-content;
+    height: fit-content;
+    background-color: cornflowerblue;
+    align-items: center;
+    padding: 2px;
 }
 #reg-box {
-    align-items: ;
+    height: 350px;
+    width: 400px;
     background: #fff;
-    height: 345.4px;
-    width: 396x;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.button{
+    font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+
+}
+#vhod-button {
+    background-color: #1877f2;
+    color: white;
+}
+#zab-button{
+    background-color: white;
+    color: #1877f2;
+}
+#acc-button{
+    background-color:#4cd137;
+    color: white;
 }
