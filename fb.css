@@ -1,0 +1,35 @@
+
+#left-box {
+    height: 286px;
+    width: 400px;
+    padding: 32;
+    margin-top: 32px;
+}
+#main{
+    background-color: #f0f2f5;
+}
+img {
+    height: 106px;
+    width: 301.06px;
+    text-align: left;
+    margin: -28px;
+}
+#words{
+    height: 103px;
+    width: 449.92px;
+    color: #1c1e21;
+    font-size: 13px;
+    width: auto;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+#big-right-box {
+    align-items: left;
+    height: 496px;
+    width: 396x;
+}
+#reg-box {
+    align-items: ;
+    background: #fff;
+    height: 345.4px;
+    width: 396x;
+}
