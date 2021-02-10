@@ -24,7 +24,6 @@ input[type=tel], select {
 #left-box{
     height: fit-content;
     width: fit-content;
-    background-color: white;
     padding: 40px;
     margin-top: 128px;
     margin-left: 193.5px;
@@ -41,20 +40,23 @@ img {
     width: 301.06px;
 }
 #words{
+    font-weight: 300;
     height: 103px;
     width: 449.92px;
     color: #1c1e21;
-    font-size: 13px;
+    font-size: 14px;
     width: auto;
+    align-content: center;
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    margin-top: 28px;
+    text-align: center;
 }
 #big-right-box {
     margin-top: 125px;
     margin-left: 80px;
     width: fit-content;
     height: fit-content;
-    background-color: cornflowerblue;
-    align-items: center;
+    
 }
 #reg-box {
     height: 345px;
