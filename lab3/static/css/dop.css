@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-stretch: ultra-condensed;
+}
+h4{
+    color:gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-left: 97px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+input[type=words], select {
+    width: 700px;
+    padding: 11px 15px;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox], select {
+    margin-right: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#blc-div{
+    background-color: black;
+    padding-top: 15px;
+    width: 20;
+    height: 60px;
+    margin-top: 0px;
+}
+.glyphicon {
+    border: none;
+    color: red;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.thebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+ul {
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#adding {
+    font-size: 18;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+}
