@@ -9,20 +9,6 @@ for (i = 0; i < close.length; i++) {
       div.style.display = "none";
    }
 }
-function chk (){
-    let tasklist, checkbox,deletebutton
-    for (i = 0; i < this.tasklistChildren.length; i++){
-        var tasklist = this.tasklistChildren[i];
-
-        checkbox = tasklist.getElementsByClassName("chkbx")[0];
-        deletebutton = tasklist.getElementsByClassName("close")[0];
-
-        checkbox.onclick = this.comp
-
-    }
-
-}
-
 
 if (document.getElementById("checkbox").checked){
       document.getElementById("todo").style.textDecoration="line-through"
